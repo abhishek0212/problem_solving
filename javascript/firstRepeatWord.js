@@ -1,16 +1,10 @@
 // find first repeating word
 const firstRepeatWord = (arr) => {
-    let index = -1
-    for (let i = 0; i < animals.length; i++) {
-        for (let j = i + 1; j < animals.length; j++) {
-            if (animals[i] != animals[j]) {
-                if (j + 1 == animals.length) {
-                    // console.log("i", i)
-                    console.log("j", j)
-                    index = i
-                    console.log(i)
-                    return;
-                }
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = i + 1; j < arr.length; j++) {
+            if (arr[i] == arr[j]) {
+                console.log("j", arr[i])
+                console.log("j", arr[j])
             }
         }
     }
