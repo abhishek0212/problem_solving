@@ -21,3 +21,8 @@ console.log(thingIsAnObject(1));
 
 // false
 console.log(thingIsAnObject(false));
+// { 1: 'a', 2: 'b'}
+// [1, 2, 3]
+// "hello"
+// 12
+// true

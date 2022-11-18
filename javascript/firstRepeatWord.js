@@ -5,6 +5,7 @@ const firstRepeatWord = (arr) => {
             if (arr[i] == arr[j]) {
                 console.log("j", arr[i])
                 console.log("j", arr[j])
+                return arr[j]
             }
         }
     }
